@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+.filter--section {
+  position: sticky;
+  top: 0px;
+  width: 25%;
+  height: calc(100vh);
+  background-color: #ffffff;
+}
+.content--section {
+  display: block;
+  position: relative;
+}

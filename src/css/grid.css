@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-3 {
+  flex: 0 0 25%;
+  padding: 10px;
+}
+.col-9 {
+  flex: 0 0 75%;
+  padding: 10px;
+}
+.col-4 {
+  flex: 0 0 33.33%;
+  padding: 10px;
+}
