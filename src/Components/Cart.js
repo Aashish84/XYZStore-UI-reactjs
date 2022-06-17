@@ -62,7 +62,7 @@ export default function Cart(props) {
           product={elem.product.id}
         />
         {/* <input type="number" value={elem.quantity} onChange={()=>props.changeQuantity()} /> */}
-        {elem.actualPrice}
+        price : {elem.actualPrice}
       </li>
     );
   });

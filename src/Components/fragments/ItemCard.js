@@ -23,15 +23,20 @@ export default function ItemCard(props) {
           alt="deer"
           className="card--img"
         />
-        <h1 className="card--title--two">{props.name}</h1>
-        <div className="card--info">
-          <h4 className="card--price">
-            Rs{actualPrice}
-            <strike>Rs{props.price}</strike>
-          </h4>
-          <button className="addtocart" onClick={() => props.handleClick(tmp)}>
-            add to cart
-          </button>
+        <div>
+          <h1 className="card--title--two">{props.name}</h1>
+          <div className="card--info">
+            <h4 className="card--price">
+              Rs{actualPrice}
+              <strike>Rs{props.price}</strike>
+            </h4>
+            <button
+              className="addtocart"
+              onClick={() => props.handleClick(tmp)}
+            >
+              add to cart
+            </button>
+          </div>
         </div>
       </div>
     </div>

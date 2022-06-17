@@ -23,12 +23,13 @@ export default function Header() {
     <header className="header">
       <div className="logo">
         <h1>
-          <Link to="/">XYZstore</Link>
+          <Link to="/">XYZstore:):</Link>
         </h1>
       </div>
       <div className="search">
         <input
           type="text"
+          placeholder="enter laptop name"
           value={searchKey}
           onChange={handleChange}
           onKeyDown={handleSearch}
